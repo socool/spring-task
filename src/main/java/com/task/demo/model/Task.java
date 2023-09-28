@@ -1,6 +1,7 @@
 package com.task.demo.model;
 
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -12,6 +13,7 @@ public class Task {
     @GeneratedValue
     private Long id;
     private String title;
+
     private String description;
 
     // Getters, Setters and constructors
